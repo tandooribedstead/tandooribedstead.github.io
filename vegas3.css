@@ -1,0 +1,146 @@
+.mbackground {
+  width: 500px;
+  height: 460px;
+  margin: auto;
+  padding: 10px 10px 0px 10px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 5px 5px 30px grey;
+}
+
+.colorsVegas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mcolors {
+  width: 70px;
+  height: 140px;
+  position: relative;
+  background-color: var(--mcolors1);
+}
+
+.imagesVegas {
+  width: 320px;
+  position: relative;
+  bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.imagesVegas2 {
+  width: 220px;
+  position: relative;
+  bottom: 340px;
+  left: 340px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mimagel {
+  width: 170px;
+  height: 230px;
+  background-image: var(--img6);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--mcolorsImg);
+  background-blend-mode: multiply;
+}
+
+.mimagel1 {
+  background-image: var(--img4);
+}
+
+.mimagele {
+  width: 140px;
+  height: 112px;
+  margin-bottom: 5px;
+  background-image: var(--img1);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--mcolorsImg);
+  background-blend-mode: multiply;
+}
+
+.mimagele1 {
+  position: relative;
+  background-image: var(--img2);
+}
+
+.line {
+  width: 30px;
+  height: 280px;
+  background-color: var(--mcolors5);
+}
+
+.mimager {
+  width: 170px;
+  height: 127px;
+  margin-bottom: 7px;
+  background-image: var(--img7);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--mcolorsImg);
+  background-blend-mode: multiply;
+}
+
+.mimager1 {
+  background-image: var(--img8);
+}
+
+.mimageb {
+  width: 140px;
+  height: 110px;
+  margin-top: 3px;
+  background-image: var(--img3);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--mcolorsImg);
+  background-blend-mode: multiply;
+}
+
+.mimageb1 {
+  width: 170px;
+  background-image: var(--img5);
+}
+
+.mgif {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  right: 140px;
+  top: 140px;
+  border-radius: 96%;
+  object-fit: cover;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  border: 7px solid #fff;
+  background-image: var(--gif);
+  background-color: var(--mcolorsImg);
+  background-blend-mode: multiply;
+}
+
+.credito-vegas {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: 2px;
+  right: 0px;
+  margin-right: 5px;
+  background-image: url(https://files.jcink.net/uploads2/planetarium/Images/capricorn.png);
+  background-position: center;
+  background-size: cover;
+  filter: invert(31%) sepia(8%) saturate(6739%) hue-rotate(321deg)
+    brightness(101%) contrast(107%);
+}
+
+.credito-vegas a {
+  text-transform: none;
+  text-decoration: none;
+}
