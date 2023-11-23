@@ -121,7 +121,7 @@
   background-size: cover;
   background-position: center;
   border: 7px solid #206C62;
-  background-image: var(--gif);
+ 
   background-color: #206C62;
   background-blend-mode: multiply;
 }
